@@ -2159,22 +2159,16 @@ hr {
 
 }
 
-.bw-search #map-top {
-	width: 100%;
-	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-
-
-
 .bw-search .map-top-form {
 	float: left;
-	font-size: 13px;
-	padding-top: 10px;
-	margin-right: 10px;
+	// font-size: 13px;
+	// padding-top: 10px;
+	// margin-right: 10px;
+	width: auto;
+	margin: 0 5px 20px 0;
+	@media screen and (min-width: $tabwidth) {
+
+	}
 }
 
 .bw-search .map-top-form input[type="submit"] {
