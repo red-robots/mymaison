@@ -1497,9 +1497,9 @@ input{border-radius:5px;color:#000}
 }.bw-search #main{width:100%}
 @media screen and (min-width:1200px){.bw-search #main{width:1120px}
 }.dfres-address-detail{line-height:22px;padding-bottom:9px}
-#map-top-right{width:100%;float:left;padding-top:5px;padding-bottom:5px;padding-left:50px}
+#map-top-right{width:100%;float:left;padding-top:20px}
 @media screen and (min-width:600px){#map-top-right{width:50%;float:right}
-}.bw-search #map-top-left{width:223px;float:left;padding-top:5px;padding-bottom:5px;padding-right:15px}
+}.bw-search #map-top-left{width:223px;float:left;padding-top:20px}
 @media screen and (min-width:600px){.bw-search #map-top-left{width:40%;float:left;border-right:1px solid #131313}
 }.bw-search #search-fields{width:290px;height:695px;float:left;padding-top:15px;color:#373737}
 .bw-search #google-search-map{width:100%;height:475px;float:left;margin-right:45px}
