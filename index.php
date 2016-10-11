@@ -166,7 +166,7 @@ $the_query = new WP_Query( $querySlides );
         <div id="home-row2-row2-box2-text2">(And the one after that.)</div><!-- home-row2-row2-box2-text2 -->
         <div id="home-row2-row2-box2-text3">Whether searching for a townhome, single family home or home to lease, our priority is earning your trust and delivering value.</div><!-- home-row2-row2-box2-text3 -->
         <div id="home-row2-row2-box2-logos">
-          <a href="http://www.maisonproperties.com/" target="_blank">
+          <a href="http://www.mytownhome.com/" target="_blank">
             <img src="<?php bloginfo('template_url'); ?>/images/maison-properties-logo.png" alt="" border="0">
           </a>
           <br>
