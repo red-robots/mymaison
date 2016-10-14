@@ -1979,7 +1979,7 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 .about-office-content a:link{color:#fff;text-decoration:none}
 .about-office-content a:visited{color:#fff;text-decoration:none}
 .about-office-content a:hover{color:#fff;text-decoration:none}
-.agent-profile-box{width:46%;margin:0 4% 30px 0;position:relative;float:left;z-index:50}
+.agent-profile-box{width:46%;margin:0 2% 30px 2%;position:relative;float:left;z-index:50}
 @media screen and (min-width:900px){.agent-profile-box{width:28%;margin:2%;float:left}
 }@media screen and (min-width:1200px){.agent-profile-box{width:14%;margin:0 2.2% 20px 0}
 }.agent-profile-box a{color:#fff;text-decoration:none}
