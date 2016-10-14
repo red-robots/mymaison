@@ -1367,7 +1367,10 @@ input.qs-sub {
 #communities-heading-photo img {
 	width: 100%;
 	height: auto;
-	margin-top: -100px;
+	
+	@media screen and (min-width: $deskwidth) {
+		margin-top: -100px;
+	}
 }
 #communities-title-box {
 	width: 100%;
