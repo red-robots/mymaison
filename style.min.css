@@ -1865,18 +1865,19 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 }#communities-heading-photo{width:100%;overflow:hidden;position:relative}
 @media screen and (min-width:1200px){#communities-heading-photo{height:400px}
 }#communities-heading-photo img{width:100%;height:auto}
-@media screen and (min-width:1200px){#communities-heading-photo img{margin-top:-100px}
+@media screen and (min-width:900px){#communities-heading-photo img{margin-top:-100px}
 }#communities-title-box{width:100%;padding:15px;background-image:url(images/bg-communities-box-header.png)}
-@media screen and (min-width:1200px){#communities-title-box{width:350px;position:absolute;bottom:25px;right:50px}
+@media screen and (min-width:900px){#communities-title-box{width:350px;position:absolute;bottom:25%;right:50px}
 }#communities-title-box #page-heading h1{color:#fff;margin-top:0;display:inline-block;margin-bottom:30px;line-height:37px}
 .price-range{width:100%;float:left;padding-top:0;font-size:12px;color:#ddd}
 .price-range a:link{color:#ddd}
 .price-range a:visited{color:#ddd}
 .price-range a:hover{color:#ddd}
-#communities-heading-link{width:auto;font-size:25px;text-transform:uppercase}
-@media screen and (min-width:1200px){#communities-heading-link{position:absolute;bottom:25px;left:50px}
-}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;border-radius:7px;display:block}
-#communities-heading-link a:link{color:#fff;text-decoration:none}
+#communities-heading-link{width:auto;margin:10px auto;font-size:25px;text-transform:uppercase}
+@media screen and (min-width:900px){#communities-heading-link{position:absolute;bottom:25%;left:50px;margin:0}
+}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;display:block}
+@media screen and (min-width:900px){#communities-heading-link a{border-radius:7px}
+}#communities-heading-link a:link{color:#fff;text-decoration:none}
 #communities-heading-link a:visited{color:#fff;text-decoration:none}
 #communities-heading-link a:hover{color:#fff;text-decoration:none;background-color:#239bcb}
 section.community{width:100%;position:relative;overflow:hidden;clear:both}
