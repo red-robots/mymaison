@@ -1177,6 +1177,20 @@ input.qs-sub {
 		margin: 0;
 	}
 }
+
+.mobile-agent {
+
+	@media screen and (min-width: $tabwidth) {
+		display: none;
+	}
+}
+.desktop-agent {
+	display: none;
+	@media screen and (min-width: $tabwidth) {
+		display: block;
+	}
+}
+
 #agents-box {
 	width: 90%;
 	position: relative;

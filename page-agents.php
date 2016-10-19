@@ -110,9 +110,10 @@ $thumb = $image['sizes'][ $size ];
 
 <div><?php echo $myField; ?></div>
 
- <div class="agent-email">
-                	<a href="mailto:<?php echo $antispam; ?>"><?php echo $antispam; ?></a>
-                </div><!--agent-email-->
+     <!--<div class="agent-email">
+    	<a href="mailto:<?php echo $antispam; ?>"><?php echo $antispam; ?></a>
+    </div>agent-email-->
+    
 </div>
 </div>
 </div>
