@@ -310,7 +310,7 @@ $thumb = $image['sizes'][ $size ];
         </div><!-- view-all-agents-box -->
       </div><!-- view-all-agents -->
 
-    </div><!-- mobile agent -->
+    </div><!-- desk agent -->
 
 
 
