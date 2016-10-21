@@ -177,7 +177,7 @@ add_image_size( 'communities-main', 267, 218, true );
 add_image_size( 'communities-single', 490, 293, true );
 add_image_size( 'communities-gallery', 310, 205, true );
 add_image_size( 'agent', 186, 217, true );
-add_image_size( 'agent_feed', 184, 237, true );
+add_image_size( 'agent_feed', 350, 451, true );
 add_image_size( 'single_agent', 290, 433, true );
 add_image_size( 'single_community_agent', 197, 273, true );
 add_image_size( 'office_photo', 205, 223, true );

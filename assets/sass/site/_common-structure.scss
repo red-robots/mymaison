@@ -850,11 +850,11 @@ blockquote {
 	margin: 0 auto;
 	background-image: url(images/bg-footer-new.png);
 	background-repeat: no-repeat;
-	background-position: bottom right;
+	background-position: bottom center;
 	margin-top: 30px;
 	overflow: hidden;
 	@media screen and (min-width: $tabwidth) {
-
+		background-position: bottom right;
 	}
 
 	@media screen and (min-width: $deskwidth) {
