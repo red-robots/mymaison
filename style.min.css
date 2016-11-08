@@ -2030,6 +2030,7 @@ article.blogpost{width:100%;float:left;border-bottom:3px solid #334ea5;position:
 article.blogpost .readmore{width:auto;margin:0 0 20px 0}
 article.blogpost .readmore a{width:auto;display:inline-block;float:right;background-color:#334ea5;color:#fff;text-decoration:none;padding:10px 15px;border-radius:5px}
 article.blogpost .readmore a:hover{background-color:rgba(51,78,165,0.7)}
+.agent-neighborhood-quote{padding:10px 10px;width:100%;float:left}
 .blog .format-aside .entry-title,.archive .format-aside .entry-title{display:none}
 .comment-content a{word-wrap:break-word}
 .bypostauthor{display:block}
