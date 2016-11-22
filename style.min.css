@@ -1673,8 +1673,9 @@ ol.pings h3{font-size:.9em}
 .communities-slide-title a:link{color:#fff;text-decoration:none}
 .communities-slide-title a:visited{color:#fff;text-decoration:none}
 .communities-slide-title a:hover{color:silver;text-decoration:none}
-#communities-listings{width:100%;float:left;padding-top:35px;padding:20px}
-@media screen and (min-width:600px){#communities-listings{padding:0}
+#communities-listings{width:100%;float:left;padding-top:35px;padding:20px;clear:both}
+@media screen and (min-width:600px){#communities-listings{width:90%;margin:0 auto}
+}@media screen and (min-width:600px){#communities-listings{width:100%}
 }#current-listings-header{width:100%;margin-left:auto;margin-right:auto}
 #current-listings-header h2{margin-bottom:0}
 #community-realtors{width:100%;margin:0 auto}
