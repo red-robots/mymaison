@@ -78,11 +78,13 @@ $the_query = new WP_Query( $querySlides );
     <?php endif; // end loop ?>
     <?php wp_reset_postdata(); ?>
     
-    <?php get_template_part('inc/quick-search'); ?>
+    
 
 
   </div><!-- home slider -->
 </div><!-- row 1 -->
+
+<?php get_template_part('inc/quick-search'); ?>
 
 
 
