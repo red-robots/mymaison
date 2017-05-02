@@ -32,6 +32,7 @@ jQuery(document).ready(function ($) {
 			animation: "fade",
 			slideshowSpeed: 5000,
 			smoothHeight: true,
+			controlNav: false
 		}); // end register flexslider
 	});
 	/*
@@ -61,6 +62,8 @@ jQuery(document).ready(function ($) {
 	      animationLoop: true,
 	      itemWidth: 350,
 	      itemMargin: 15,
+	      customDirectionNav: ".caro-nav",
+	      controlNav: false,
 	      minItems: getGridSize(), // use function to pull in initial value
 	      maxItems: getGridSize() // use function to pull in initial value
 	    });
