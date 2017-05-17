@@ -214,7 +214,7 @@ get_header();
   // WP_User_Query arguments
   $args = array (
     'role' => 'Agent',
-    'number' => 4,
+    'number' => 3,
     'orderby' => 'rand',
   );
   // Create the WP_User_Query object
@@ -235,18 +235,21 @@ get_header();
       $size = 'agent_feed';
       $thumb = $image['sizes'][ $size ];
       ?>
-    <div class="agent-profile-box">
+    <div class="agent-profile-box js-blocks">
       <div class="agent-photo">
         <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
       </div>
-      <div class="agent-profile-box-content">
+      <div class="agent-profile-box-content-home js-titles">
         <h2><a href="<?php echo $link; ?>"><?php echo $agentName; ?> <?php echo $agentName2; ?></a></h2>
       </div>
     </div>
-  <?php 
-  }
-} 
-?>
+  <?php } ?>
+  <div class="view-all-agents-link js-blocks">
+    <a href="<?php bloginfo('url'); ?>/my-townhome-agents">
+      <span class="text">View All Agents</span>
+    </a>
+  </div>
+<?php } ?>
 </div>
 
 <!-- -->
@@ -282,11 +285,11 @@ get_header();
     </div><!-- agents-box-padding -->
   </div><!-- agents-box -->
 
-  <div id="view-all-agents">
+  <!-- <div id="view-all-agents">
     <div id="view-all-agents-box">
       <a href="<?php bloginfo('url'); ?>/our-agents">VIEW ALL AGENTS</a>
-    </div><!-- view-all-agents-box -->
-  </div><!-- view-all-agents -->
+    </div>
+  </div> -->
 
 </div><!-- desk agent -->
 

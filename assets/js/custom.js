@@ -57,6 +57,7 @@ jQuery(document).ready(function ($) {
 	*
 	------------------------------------*/
 	$('.js-blocks').matchHeight();
+	$('.js-titles').matchHeight();
 
 	// front page slider 
 	// $('.flexslider').flexslider({
