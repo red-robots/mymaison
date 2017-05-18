@@ -1112,9 +1112,16 @@ input.qs-sub {
 		font-size: 20px;
 		a {
 			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			text-indent: -90000px;
 		}
 		.text {
 			line-height: 1.2;
+			padding: 5%;
 		}
 	}
 	.agent-profile-box, .view-all-agents-link {

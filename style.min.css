@@ -548,7 +548,7 @@ to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translat
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */.fa{display:inline-block;font:normal normal normal 14px / 1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+ */.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
 .fa-3x{font-size:3em}
@@ -1815,8 +1815,8 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 @media screen and (min-width:600px){#home-agents{width:60%}
 }@media screen and (min-width:1200px){#home-agents{width:60%}
 }#home-agents .view-all-agents-link{background-color:#239bcb;color:#fff;text-decoration:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;font-size:20px}
-#home-agents .view-all-agents-link a{display:block}
-#home-agents .view-all-agents-link .text{line-height:1.2}
+#home-agents .view-all-agents-link a{display:block;position:absolute;top:0;left:0;height:100%;width:100%;text-indent:-90000px}
+#home-agents .view-all-agents-link .text{line-height:1.2;padding:5%}
 #home-agents .agent-profile-box,#home-agents .view-all-agents-link{width:46%;margin:0 2% 15px 2%;position:relative;z-index:50}
 @media screen and (min-width:600px){#home-agents .agent-profile-box,#home-agents .view-all-agents-link{width:45%;margin:2%;float:left}
 }@media screen and (min-width:1200px){#home-agents .agent-profile-box,#home-agents .view-all-agents-link{width:18%;margin:0 2% 20px 0}
