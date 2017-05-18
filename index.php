@@ -246,11 +246,11 @@ get_header();
 
                         <div class="agent-profile-box  js-blocks">
                           <div class="agent-photo">
-                            <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
+                            <a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>"><img src="<?php echo $thumb; ?>" /></a>
                           </div><!-- agent-photo -->
                           <div class="agent-profile-box-content-home js-titles">
                             <h2>
-                              <a href="<?php echo $link; ?>">
+                              <a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>">
                                 <?php echo $agentName; ?>
                               </a>
                             </h2>
