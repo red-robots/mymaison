@@ -210,7 +210,64 @@ get_header();
 <!-- -->
 
 <div id="home-agents">
-  <?php
+<?php
+        $response = wp_remote_get( 'http://myhomenorthcarolina.com/wp-json/wp/v2/users?per_page=100' );
+        if( is_array($response) ) :
+            $code = wp_remote_retrieve_response_code( $response );
+            if(!empty($code) && intval(substr($code,0,1))===2): 
+                $body = json_decode(wp_remote_retrieve_body( $response),true);
+                $max = count($body);
+                $rand_array = array();
+                if($max>2):
+                    while(count($rand_array)<3):
+                        $int = rand(0,$max);
+                        if(!in_array($int,$rand_array)):
+                          if($body[$int]['acf']&&$body[$int]['acf']['photo']):
+                            $rand_array[]=$int;
+                          endif;
+                        endif;
+                    endwhile;
+                else: 
+                    $rand_array = $body;
+                endif;
+                foreach ($rand_array as $i):
+                    $author = $body[$i];
+                    // get all the user's data
+                    $link = $author['link'];
+                    $agentName = $author['name'];
+                    $antispam = null;
+                    $thumb = null;
+                    if(isset($author['acf'])):
+                        if(isset($author['acf']['photo'])):
+                            $thumb = $author['acf']['photo']['sizes'][ 'agent_feed' ];
+                        endif;
+                    endif;
+                    if($thumb): ?>
+
+                        <div class="agent-profile-box  js-blocks">
+                          <div class="agent-photo">
+                            <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
+                          </div><!-- agent-photo -->
+                          <div class="agent-profile-box-content-home js-titles">
+                            <h2>
+                              <a href="<?php echo $link; ?>">
+                                <?php echo $agentName; ?>
+                              </a>
+                            </h2>
+                          </div><!-- agent-profile-box-content -->
+                        </div><!-- agent-profile-box -->
+      
+                    <?php endif; 
+                endforeach;?>
+                <div class="view-all-agents-link js-blocks">
+                  <span class="text">View All Agents</span>
+                    <a href="<?php bloginfo('url'); ?>/my-townhome-agents">
+                        View All Agents
+                    </a>
+                </div>
+            <?php endif;
+        endif;
+  /*
   // WP_User_Query arguments
   $args = array (
     'role' => 'Agent',
@@ -249,7 +306,7 @@ get_header();
       <span class="text">View All Agents</span>
     </a>
   </div>
-<?php } ?>
+<?php } */?>
 </div>
 
 <!-- -->
