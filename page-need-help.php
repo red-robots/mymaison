@@ -67,10 +67,10 @@
 
 
                             <div class="agent-photo">
-                                <a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>"><img src="<?php echo $thumb; ?>" /></a>
+                                <a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>" target="_blank"><img src="<?php echo $thumb; ?>" /></a>
                             </div>
                             <div class="agent-profile-box-content">
-                                <h2><a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>"><?php echo $agentName; ?></a></h2>
+                                <h2><a href="<?php echo add_query_arg( 'from', 'mymaison', $link); ?>" target="_blank"><?php echo $agentName; ?></a></h2>
                             </div>
                         </div>
                     <?php endif; 
