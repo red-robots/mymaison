@@ -261,7 +261,7 @@ get_header();
                 endforeach;?>
                 <div class="view-all-agents-link js-blocks">
                   <span class="text">View All Agents</span>
-                    <a href="<?php bloginfo('url'); ?>/my-townhome-agents">
+                    <a href="<?php bloginfo('url'); ?>/our-agents">
                         View All Agents
                     </a>
                 </div>
