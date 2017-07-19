@@ -97,7 +97,7 @@
         <?php endwhile; wp_reset_postdata(); // end of the loop. ?>
         <?php echo do_shortcode("[tabby title='SELL WITH US']"); ?>
         <?php $recent = new WP_Query("page_id=22"); while($recent->have_posts()) : $recent->the_post();?>
-        <div class="find-box-content">
+        <div class="find-box-content" id="sell-box">
           <?php the_field("sell_with_us"); ?>
         </div>
         <?php endwhile; wp_reset_postdata(); // end of the loop. ?>
