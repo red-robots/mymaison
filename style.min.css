@@ -1556,6 +1556,7 @@ input{border-radius:5px;color:#000}
 @media screen and (min-width:900px){#find-box-wrapper #sell-box{padding:8% 15%}
 }@media screen and (min-width:1200px){#find-box-wrapper #sell-box{padding:8% 10%}
 }#find-box-wrapper #sell-box:after{clear:both;content:"";display:block}
+#find-box-wrapper #sell-box>h2{margin-top:20px;margin-bottom:0;font-size:25px;font-weight:500;color:white}
 @media screen and (min-width:600px){#find-box-wrapper #sell-box>.col-1{float:left;width:50%}
 }@media screen and (min-width:900px){#find-box-wrapper #sell-box>.col-1{width:60%}
 }#find-box-wrapper #sell-box>.col-1 h1,#find-box-wrapper #sell-box>.col-1 h2,#find-box-wrapper #sell-box>.col-1 h3,#find-box-wrapper #sell-box>.col-1 h4{color:white}
@@ -1728,8 +1729,8 @@ ol.pings h3{font-size:.9em}
 .infusion-option{padding-right:15px;float:left}
 .infusion-option input{margin:0 15px 0 0}
 .infusion-submit{width:100%;float:left;margin:20px 0}
-.infusion-submit input{width:100%;background-color:#0099cf;color:#fff;border:0;padding:10px 0}
-.infusion-submit input:hover{background-color:#0099cf}
+.infusion-submit input,.infusion-submit button{width:100%;background-color:#0099cf;color:#fff;border:0;border-radius:6px;padding:10px 0}
+.infusion-submit input:hover,.infusion-submit button:hover{background-color:#0099cf}
 #sub-home-search input{border-radius:0}
 #sub-home-search input[type="submit"]{width:100%;background-color:#0099cf;color:#fff;border:0;padding:10px 0;border-radius:5px}
 #sub-home-search input[type="submit"]:hover{background-color:#0099cf}

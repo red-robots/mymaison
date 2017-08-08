@@ -825,6 +825,13 @@ input {
 			content: "";
 			display: block;
 		}
+		>h2{
+			margin-top: 20px;
+			margin-bottom: 0;
+			font-size: 25px;
+			font-weight: 500;
+			color: white;
+		}
 		>.col-1 {
 			@media screen and (min-width: $tabwidth) {
 				float: left;

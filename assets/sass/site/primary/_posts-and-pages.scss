@@ -401,11 +401,12 @@
 	float: left;
 	margin: 20px 0;
 
-	input {
+	input, button {
 		width: 100%;
 		background-color: rgba(0,153,207,1);
 		color: #fff;
 		border: 0;
+		border-radius: 6px;
 		padding: 10px 0;
 
 		&:hover {
