@@ -86,9 +86,8 @@ get_header(); ?>
           <?php endif; ?>
 
 
-          
-          <?php if (strlen(get_post_meta($post->ID, "property_valuation", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Property Valuation']"); ?>
+          <?php if (strlen(get_post_meta($post->ID, "pricing_analysis_link", true)) > 0) : ?>
+            <?php echo do_shortcode("[tabby title='<a href=\"".get_field("pricing_analysis_link")."\" target=\"_blank\">Instant Price Analysis</a>']"); ?>
             <div class="tab-content">
               <?php the_field("property_valuation"); ?>
             </div><!--- / tab -->  
