@@ -15,6 +15,7 @@ get_header(); ?>
         <div id="communities-heading-photo">
         <?php
           $image = get_field('featured_photo');
+          $virtual_tour = get_field("virtual_tour");
           $url = $image['url'];
           $title = $image['title'];
           $alt = $image['alt'];
@@ -30,6 +31,9 @@ get_header(); ?>
         	<img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" />
         <?php endif; ?>
           <div id="communities-heading-link"><a href="#listings">View Listings</a></div>
+          <?php if($virtual_tour):?>
+            <div id="communities-tour-link"><a href="#virtual-tour">Virtual Tour</a></div>
+          <?php endif;?>
           <div id="communities-title-box"><div id="page-heading"><h2><?php
         $category = get_the_category(); 
         echo $category[0]->cat_name;
@@ -219,6 +223,14 @@ get_header(); ?>
       <?php endif; ?>
       </div><!-- communities-gallery -->
 
+      <?php if($virtual_tour):?>
+        <div class="clear"></div>
+        <a name="virtual-tour"></a>
+        <div id="communities-tour">
+          <h2>Virtual Tour</h2>
+          <?php echo $virtual_tour;?>
+        </div><!--.communities-tour-->
+      <?php endif;?>
 
     </div><!-- page-content -->
   </div><!-- main -->
