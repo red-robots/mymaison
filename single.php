@@ -223,15 +223,6 @@ get_header(); ?>
       <?php endif; ?>
       </div><!-- communities-gallery -->
 
-      <?php if($virtual_tour):?>
-        <div class="clear"></div>
-        <a name="virtual-tour"></a>
-        <div id="communities-tour">
-          <h2>Virtual Tour</h2>
-          <?php echo $virtual_tour;?>
-        </div><!--.communities-tour-->
-      <?php endif;?>
-
     </div><!-- page-content -->
   </div><!-- main -->
 </div><!-- main-wrapper -->
@@ -248,6 +239,14 @@ get_header(); ?>
   <?php endif; ?>
 
 <div id="bottom-link"><a href="<?php bloginfo('url'); ?>/neighborhoods/">view all neighborhoods</a></div><!-- -->
+<?php if($virtual_tour):?>
+  <div class="clear"></div>
+  <a name="virtual-tour"></a>
+  <div id="communities-tour">
+    <h2>Virtual Tour</h2>
+    <?php echo $virtual_tour;?>
+  </div><!--.communities-tour-->
+<?php endif;?>
 </div><!-- main2 -->
 <?php endwhile; endif; ?>   
 
