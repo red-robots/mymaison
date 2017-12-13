@@ -414,6 +414,30 @@
 		}
 	}
 }
+#sub-home-search-padding {
+
+	.infusion-submit {
+		width: 100%;
+		float: left;
+		margin: 20px 0;
+	
+		input, button {
+			width: auto;
+			background-color: #3753A1;
+			-moz-border-radius: 6px;
+			border-radius: 6px;
+			padding: 10px 15px;
+			color: white;
+			border: none;
+			box-shadow: none;
+			text-shadow: none;
+			display: block;
+			&:hover {
+				background-color: #359DC7;
+			}
+		}	
+	}
+}
 #sub-home-search {
 	input {
 		border-radius: 0;

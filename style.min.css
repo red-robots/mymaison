@@ -1738,6 +1738,9 @@ ol.pings h3{font-size:.9em}
 .infusion-submit{width:100%;float:left;margin:20px 0}
 .infusion-submit input,.infusion-submit button{width:100%;background-color:#0099cf;color:#fff;border:0;border-radius:6px;padding:10px 0}
 .infusion-submit input:hover,.infusion-submit button:hover{background-color:#0099cf}
+#sub-home-search-padding .infusion-submit{width:100%;float:left;margin:20px 0}
+#sub-home-search-padding .infusion-submit input,#sub-home-search-padding .infusion-submit button{width:auto;background-color:#3753a1;border-radius:6px;padding:10px 15px;color:white;border:0;box-shadow:none;text-shadow:none;display:block}
+#sub-home-search-padding .infusion-submit input:hover,#sub-home-search-padding .infusion-submit button:hover{background-color:#359dc7}
 #sub-home-search input{border-radius:0}
 #sub-home-search input[type="submit"]{width:100%;background-color:#0099cf;color:#fff;border:0;padding:10px 0;border-radius:5px}
 #sub-home-search input[type="submit"]:hover{background-color:#0099cf}
