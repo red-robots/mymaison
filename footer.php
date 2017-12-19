@@ -85,7 +85,7 @@
 
 </div>
 
-<div id="footer-links"><p><a href="<?php bloginfo('url'); ?>/about">ABOUT</a><p><a href="<?php bloginfo('url'); ?>/careers">CAREERS</a><p><a href="<?php bloginfo('url'); ?>/resources">RESOURCES</a><p><a href="<?php bloginfo('url'); ?>/contact">CONTACT US</a></div>
+<div id="footer-links"><p><a href="<?php bloginfo('url'); ?>/about">ABOUT</a><p><a href="https://myhomenorthcarolina.com/careers/">CAREERS</a><p><a href="<?php bloginfo('url'); ?>/resources">RESOURCES</a><p><a href="<?php bloginfo('url'); ?>/contact">CONTACT US</a></div>
 
 </div>
 
