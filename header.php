@@ -92,7 +92,8 @@ li.lh:hover {
  
 </style>
 <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCifsjitKgXZEl08R8JwrKFkpacFZOZzdg"></script>
 <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
